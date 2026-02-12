@@ -7,22 +7,32 @@
 body {
 	background-color: #e6ce55;
 }
+.backgroundImage {
+	background-image: url(../img/wrench.png);
+	width: 400px;
+	height: 400px;
+	margin: 64px auto;
+}
+.backgroundImage:hover {
+	background-image: url(../img/clock.png);
+	cursor: crosshair;
+}
 .text {
 	width: 50%;
 	margin: 96px auto;
-}
-.text *{
-	display: incline-block;
-	width: 48%;
-	margin: 0;
-	padding: 0;
-	vertical-align: middle;
 }
 h1 {
 	 font-family: "Alegreya", serif;
 	color: black;
 	font-size: 48px;
 	text-align: center;
+}
+.text * {
+	display: incline-block;
+	width: 48%;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
 }
 h2 {
 	color: dodgerblue;
@@ -40,15 +50,4 @@ h3 a:visited {
 }
 h3 a:hover {
 	color: white;
-}
-.backgroundImage {
-	background-image: url(../img/wrench.png);
-	width: 400px;
-	height: 400px;
-	margin: 64px auto;
-}
-
-.backgroundImage:hover {
-	background-image: url(../img/clock.png);
-	cursor: crosshair;
 }
