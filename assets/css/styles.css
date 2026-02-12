@@ -28,7 +28,7 @@ h1 {
 	text-align: center;
 }
 .text * {
-	display: incline-block;
+	display: inline-block;
 	width: 48%;
 	margin: 0;
 	padding: 0;
