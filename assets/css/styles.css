@@ -5,10 +5,33 @@
 }
 
 body {
-	background-color: red;
+	background-color: #e6ce55;
+}
+.text {
+	width: 50%;
+	margin: 96px auto;
+}
+.text *{
+	display: incline-block;
+	width: 48%;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
 }
 h1 {
 	 font-family: "Alegreya", serif;
+	color: black;
+	font-size: 48px
+	text-align: center;
+}
+h2 {
+	color: dodgerblue;
+	font-size: 40px;
+	text-align: left;
+}
+h3 {
+	font-size: 16px;
+	text-align: right;
 }
 .backgroundImage {
 	background-image: url(../img/wrench.png);
